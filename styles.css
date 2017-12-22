@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  /*Incudes border-box into height and width*/
+}
+
+body {
+  margin-top: 25px;
+}
+
+/************************
+ Container styles
+ ************************/
+
+.main-container {
+  box-shadow: 7px 7px 5px #e0e0e0;
+  max-width: 340px;
+  padding: 15px;
+  background: linear-gradient(to bottom right, #0a0c0c, #fff);
+  /*From w3schools.com/css/css3_gradients.asp*/
+  font-family: "Arial", sans-serif;
+  position: relative;
+}
+
+.secondary-container {
+  margin-top: 15px;
+  background: #1e2020f2;
+  color: #fff;
+}
+
+.border {
+  border: 3px solid #000;
+  border-radius: 10px;
+}
+
+/************************
+ Content styles
+ ************************/
+
+.animal-name {
+  color: #fff;
+  text-shadow: 1px 1px #000;
+  padding-bottom: 5px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.fact {
+  font-style: italic;
+}
+
+.fact, .animal-description {
+  padding: 0 10px;
+}
+
+.list {
+  list-style-type: none;
+  -webkit-padding-start: 10px;/*Ensures browser compatability*/
+}
+
+/************************
+ Image styles
+ ************************/
+
+.animal-image {
+  border-radius: 10px;
+  filter: contrast(125%);
+  -webkit-filter: contrast(125%);/*Ensures browser compatability*/
+  /*Increases image contrast. Source: https://www.w3schools.com/cssref/css3_pr_filter.asp*/
+  max-width: 100%;
+  /*Makes image responsive*/
+  }
